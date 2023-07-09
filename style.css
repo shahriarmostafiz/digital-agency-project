@@ -157,3 +157,40 @@
 .ceo-info > small {
   font-size: small;
 }
+.consultation {
+  display: flex;
+  width: 63%;
+  margin: auto;
+  background-color: #d02d2d;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 60px;
+  border-radius: 20px;
+  margin-top: -90px;
+  color: white;
+}
+.consult-call {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  gap: 10px;
+  padding-left: 20px;
+  text-align: center;
+  border-right: 1px solid grey;
+  /* margin-right: 1px; */
+}
+.consult-phone {
+  padding: 10px;
+}
+.consult-text {
+  font-size: 12px;
+}
+.consult-info {
+  width: 50%;
+  text-align: left;
+  /* border: 1px solid white; */
+  margin-right: 2px;
+}
+.consult-btn {
+  width: 15%;
+}
