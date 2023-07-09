@@ -93,11 +93,12 @@
   text-align: center;
   width: 150px;
   height: 120px;
-  padding: 50px;
+  padding: 30px;
   background-color: white;
   color: black;
   border-radius: 5px;
   align-items: center;
+  margin: 5px;
 }
 .first-two-box {
   display: flex;
@@ -112,7 +113,7 @@
   background-color: rgba(247, 247, 247, 0.085);
   border: 1px solid rgb(255, 255, 255);
   color: rgb(239, 0, 0);
-  padding: 20px 45px;
+  padding: 10px 25px;
   border-radius: 30px;
   text-align: center;
   margin-left: 15%;
@@ -133,7 +134,7 @@
   padding: 15px;
 }
 .btn2 {
-  padding: 10px 50px;
+  padding: 5px 30px;
   font-size: small;
 }
 .contact {
@@ -194,6 +195,7 @@
 .consult-btn {
   width: 15%;
 }
+/* box section first parent */
 .blog {
   margin-top: 50px;
 }
@@ -209,15 +211,16 @@
 #blog-subhead {
   font-size: 18px;
 }
+/* immediate parent */
 .blog-news-box {
   display: flex;
   justify-content: space-around;
 
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
-.box {
+.blog-box {
   width: 280px;
   height: 370px;
   border-radius: 10px;
@@ -238,4 +241,32 @@
   font-size: 16px;
   text-align: left;
   padding: 10px;
+}
+footer {
+  background-image: url("./asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.95));
+  background-position: center;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 10px;
+}
+.foot-title {
+  width: 20%;
+}
+.foot-headings {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.footer-box li {
+  list-style: none;
+  font-size: 14px;
+  padding: 3px 0;
 }
