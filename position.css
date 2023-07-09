@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.dada {
+  position: relative;
+  height: 800px;
+  width: 800px;
+  background-color: #ed3232fb;
+  top: 50px;
+}
+.parent {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(226, 153, 43);
+  position: absolute;
+  top: 50px;
+}
+p {
+  position: absolute;
+  top: 50px;
+}
