@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-container {
+  display: flex;
+  background-color: grey;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-box-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: white;
+  gap: 15px;
+}
+.banner-container {
+  height: 100vh;
+  background-image: url("./asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  background-position: center;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+}
+.title .primary {
+  color: red;
+}
+/* main. */
+.service-container {
+  height: 100vh;
+  background-image: url("./asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+  background-position: center;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  color: white;
+}
+.icon {
+  width: 70px;
+  margin-bottom: 20px;
+}
+.box {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  /* box-shadow: ;  */
+  align-items: center;
+  padding: 20px;
+}
+.first-two-box {
+  display: flex;
+}
+.second-two-box {
+  display: flex;
+}
+.service-description {
+  width: 500px;
+}
